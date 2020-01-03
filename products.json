@@ -1,0 +1,67 @@
+{
+    "items": [{
+            "sys": {
+                "id": "1"
+            },
+            "fields": {
+                "title": "queen rose",
+                "price": 5.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-1.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "2"
+            },
+            "fields": {
+                "title": "beautiful rose",
+                "price": 2.50,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-2.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "3"
+            },
+            "fields": {
+                "title": "sunrose",
+                "price": 3.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-3.png"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": "4"
+            },
+            "fields": {
+                "title": "half-blood rose",
+                "price": 4.00,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/product-4.png"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
