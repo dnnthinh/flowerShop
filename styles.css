@@ -27,7 +27,7 @@ body {
   position: sticky;
   top: 0;
   height: 60px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   background: rgb(231, 226, 221);
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-center {
-  width: 100vw;
+  width: 100%;
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
@@ -80,7 +80,7 @@ body {
 
 /* ------------ hero --------------- */
 .hero {
-  width: 100vw;
+  width: 100%;
   min-height: calc(100vh - 60px);
   background: url("./images/banner.jpg") center/cover no-repeat;
   display: flex;
