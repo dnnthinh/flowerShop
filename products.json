@@ -1,7 +1,8 @@
 {
-  "items": [
-    {
-      "sys": { "id": "1" },
+  "items": [{
+      "sys": {
+        "id": "1"
+      },
       "fields": {
         "title": "queen rose",
         "price": 5.0,
@@ -15,7 +16,9 @@
       }
     },
     {
-      "sys": { "id": "2" },
+      "sys": {
+        "id": "2"
+      },
       "fields": {
         "title": "beautiful rose",
         "price": 2.5,
@@ -29,7 +32,9 @@
       }
     },
     {
-      "sys": { "id": "3" },
+      "sys": {
+        "id": "3"
+      },
       "fields": {
         "title": "sunrose",
         "price": 3.0,
@@ -43,7 +48,9 @@
       }
     },
     {
-      "sys": { "id": "4" },
+      "sys": {
+        "id": "4"
+      },
       "fields": {
         "title": "half-blood rose",
         "price": 4.0,
@@ -57,7 +64,9 @@
       }
     },
     {
-      "sys": { "id": "5" },
+      "sys": {
+        "id": "5"
+      },
       "fields": {
         "title": "king rose",
         "price": 4.0,
