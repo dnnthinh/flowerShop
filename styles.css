@@ -27,7 +27,7 @@ body {
   position: sticky;
   top: 0;
   height: 60px;
-  min-width: calc(100vw - 20px);
+  width: 100%;
   display: flex;
   align-items: center;
   background: rgb(231, 226, 221);
@@ -80,19 +80,20 @@ body {
 
 /* ------------ hero --------------- */
 .hero {
-  min-width: calc(100vw - 20px);
+  width: 100%;
   min-height: calc(100vh - 60px);
   background: url("./images/banner.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 1rem;
 }
 
 .banner {
   text-align: center;
   background: rgba(225, 225, 225, 0.8);
   display: inline-block;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .banner-title {
