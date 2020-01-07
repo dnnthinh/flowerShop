@@ -111,6 +111,7 @@ body {
   background: var(--primaryColor);
   color: var(--mainBlack);
   border: 1px solid var(--primaryColor);
+  border-radius: 20px;
   transition: var(--mainTransition);
   cursor: pointer;
 }
@@ -119,6 +120,10 @@ body {
   background: transparent;
   color: var(--primaryColor);
   font-weight: bold;
+}
+
+.banner-btn:focus {
+  outline: none;
 }
 
 /* ------------ End of hero --------------- */

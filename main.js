@@ -1,6 +1,7 @@
 // variables
 
 const cartBtn = document.querySelector(".cart-btn");
+const bannerBtn = document.querySelector(".banner-btn");
 const closeCartBtn = document.querySelector(".close-cart");
 const clearCartBtn = document.querySelector(".clear-cart");
 const cartDOM = document.querySelector(".cart");
@@ -151,6 +152,10 @@ class UI {
 
     cartLogic() {
         clearCartBtn.addEventListener('click', () => this.clearCart());
+        bannerBtn.addEventListener('click', () =>
+            document.getElementById('id-products').scrollIntoView({
+                behavior: 'smooth'
+            }));
 
         cartContent.addEventListener('click', event => {
             if (event.target.classList.contains('remove-item')) {
@@ -227,6 +232,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // setup App
     ui.setupAPP();
+
     // get all products
     products
         .getProducts()
