@@ -47,6 +47,12 @@ body {
   text-transform: capitalize;
 }
 
+@media screen and (max-width: 576px) {
+  .navbar a {
+    font-size: 20px;
+  }
+}
+
 .navbar-center {
   width: 100%;
   max-width: 1170px;
@@ -114,6 +120,18 @@ body {
   border-radius: 20px;
   transition: var(--mainTransition);
   cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .banner-title {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .banner-btn {
+    padding: 0.5em 1.2rem;
+    font-size: 0.5rem;
+  }
 }
 
 .banner-btn:hover {
